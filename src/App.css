@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(235deg, #05dd0d, #ba08d7);
+background-size: 400% 400%;
+display: flex;
+flex-direction: column;
+
+-webkit-animation: AnimationName 49s ease infinite;
+-moz-animation: AnimationName 49s ease infinite;
+animation: AnimationName 49s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #ccc;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.main-container{
+  min-height: 100vh;
+  background: linear-gradient(75deg, rgba(119, 205, 155, 0.82), rgba(69, 24, 115, 0.53));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1{
+  font-size: 54px;
+  color:#333;
+}
